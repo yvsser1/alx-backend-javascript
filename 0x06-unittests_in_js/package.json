@@ -1,12 +1,14 @@
 {
-  "name": "task_0",
+  "name": "task_3",
   "version": "1.0.0",
-  "description": "Calculation function with tests",
-  "main": "0-calcul.js",
+  "description": "Payment function with Sinon testing",
+  "main": "3-payment.js",
   "scripts": {
-    "test": "mocha \"0-calcul.test.js\""
+    "test": "mocha \"3-payment.test.js\""
   },
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2",
+    "sinon": "^15.2.0"
   }
 }
